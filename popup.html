@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>💱 VND Converter</h1>
+
+    <div class="toggle-row">
+      <span>Bật chuyển đổi</span>
+      <label class="switch">
+        <input type="checkbox" id="toggle" checked>
+        <span class="slider"></span>
+      </label>
+    </div>
+
+    <div class="info">
+      <div class="rate">
+        <span class="label">Tỷ giá:</span>
+        <span id="rate">—</span>
+      </div>
+      <div class="source">
+        <span class="label">Nguồn:</span>
+        <span id="source">—</span>
+      </div>
+      <div class="updated">
+        <span class="label">Cập nhật:</span>
+        <span id="updated">—</span>
+      </div>
+    </div>
+
+    <button id="refresh">🔄 Cập nhật tỷ giá</button>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

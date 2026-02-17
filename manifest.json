@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "VND Price Converter",
+  "version": "1.0.0",
+  "description": "Tự động chuyển đổi giá USD sang VND ngay trên trang web",
+  "permissions": ["activeTab", "storage", "alarms"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "VND Price Converter"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
