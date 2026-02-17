@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - VND Price Converter</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 700px; margin: 40px auto; padding: 0 20px; line-height: 1.7; color: #333; }
+        h1 { color: #1a1a1a; border-bottom: 2px solid #e0e0e0; padding-bottom: 10px; }
+        h2 { color: #444; margin-top: 30px; }
+        .updated { color: #888; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+    <h1>Privacy Policy</h1>
+    <p><strong>VND Price Converter</strong> — Chrome Extension</p>
+    <p class="updated">Last updated: February 17, 2026</p>
+
+    <h2>Summary</h2>
+    <p>VND Price Converter does <strong>not</strong> collect, store, or transmit any personal data. Your browsing activity stays entirely on your device.</p>
+
+    <h2>Data Collection</h2>
+    <p>This extension collects <strong>no user data whatsoever</strong>. Specifically:</p>
+    <ul>
+        <li>No personal information is collected</li>
+        <li>No browsing history is tracked or stored</li>
+        <li>No analytics or telemetry data is gathered</li>
+        <li>No cookies are set by the extension</li>
+        <li>No data is sold or shared with third parties</li>
+    </ul>
+
+    <h2>Network Requests</h2>
+    <p>The extension makes a single type of network request: fetching the current USD to VND exchange rate from the <a href="https://www.frankfurter.app/">Frankfurter API</a> (a free, open-source API powered by the European Central Bank). This request:</p>
+    <ul>
+        <li>Contains no user information</li>
+        <li>Contains no browsing data</li>
+        <li>Is a simple GET request to <code>api.frankfurter.app/latest?from=USD&to=VND</code></li>
+        <li>Occurs once per hour while Chrome is running</li>
+    </ul>
+
+    <h2>Local Storage</h2>
+    <p>The extension stores only two things locally on your device using Chrome's storage API:</p>
+    <ul>
+        <li>The cached exchange rate (a single number)</li>
+        <li>Your on/off preference</li>
+    </ul>
+    <p>This data never leaves your device.</p>
+
+    <h2>Permissions</h2>
+    <ul>
+        <li><strong>activeTab:</strong> Required to read page content and detect USD prices for conversion</li>
+        <li><strong>storage:</strong> Required to cache the exchange rate and save your preferences</li>
+        <li><strong>alarms:</strong> Required to schedule hourly exchange rate updates</li>
+    </ul>
+
+    <h2>Open Source</h2>
+    <p>This extension is open source. You can review the complete source code at: <a href="https://github.com/kiraje/vnd-price-converter">github.com/kiraje/vnd-price-converter</a></p>
+
+    <h2>Contact</h2>
+    <p>If you have questions about this privacy policy, please open an issue on the <a href="https://github.com/kiraje/vnd-price-converter/issues">GitHub repository</a>.</p>
+</body>
+</html>
