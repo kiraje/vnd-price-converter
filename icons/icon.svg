@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a9f4a"/>
+      <stop offset="100%" style="stop-color:#0d7a35"/>
+    </linearGradient>
+  </defs>
+  <!-- Rounded square background -->
+  <rect x="4" y="4" width="120" height="120" rx="24" ry="24" fill="url(#bg)"/>
+  <!-- Dollar sign (left) -->
+  <text x="30" y="82" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="52" fill="rgba(255,255,255,0.95)" text-anchor="middle">$</text>
+  <!-- Arrow -->
+  <path d="M 50 64 L 78 64" stroke="white" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.85"/>
+  <path d="M 72 56 L 80 64 L 72 72" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.85"/>
+  <!-- Dong sign (right) -->
+  <text x="102" y="82" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="44" fill="rgba(255,255,255,0.95)" text-anchor="middle">₫</text>
+</svg>
