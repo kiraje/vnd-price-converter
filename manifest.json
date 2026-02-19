@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "VND Price Converter",
-  "version": "1.0.0",
-  "description": "Tự động chuyển đổi giá USD sang VND ngay trên trang web",
+  "version": "1.0.1",
+  "description": "Automatically converts USD prices to Vietnamese Dong (VND) on any webpage with live exchange rates.",
   "permissions": ["activeTab", "storage", "alarms"],
   "background": {
     "service_worker": "background.js"
