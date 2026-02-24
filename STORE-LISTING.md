@@ -90,9 +90,9 @@ Follow these steps to publish on Chrome Web Store:
    - Single purpose: "Converts USD prices to VND on webpages"
    - Privacy policy URL: `https://kiraje.github.io/vnd-price-converter/privacy-policy.html`
    - Permissions justification:
-     - `activeTab`: Needed to access page content for price detection
      - `storage`: Saves exchange rate cache and user preferences
      - `alarms`: Schedules hourly exchange rate updates
+     - (Content scripts are declared in the manifest and do not require additional permissions)
    - Does not use remote code
    - Data use: Does not collect or transmit user data
 6. [ ] **Distribution** tab:

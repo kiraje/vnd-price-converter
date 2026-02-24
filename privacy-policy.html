@@ -48,10 +48,10 @@
 
     <h2>Permissions</h2>
     <ul>
-        <li><strong>activeTab:</strong> Required to read page content and detect USD prices for conversion</li>
         <li><strong>storage:</strong> Required to cache the exchange rate and save your preferences</li>
         <li><strong>alarms:</strong> Required to schedule hourly exchange rate updates</li>
     </ul>
+    <p>The extension uses declarative content scripts (declared in the manifest) to detect USD prices on webpages. No additional tab or host permissions are required beyond the content script match patterns.</p>
 
     <h2>Open Source</h2>
     <p>This extension is open source. You can review the complete source code at: <a href="https://github.com/kiraje/vnd-price-converter">github.com/kiraje/vnd-price-converter</a></p>

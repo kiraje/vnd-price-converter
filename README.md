@@ -25,9 +25,10 @@ Tự động phát hiện giá USD trên mọi trang web và hiển thị giá V
 
 | Permission | Lý do |
 |------------|-------|
-| `activeTab` | Chỉ truy cập tab đang active khi user tương tác |
 | `storage` | Lưu cache tỷ giá và trạng thái bật/tắt |
 | `alarms` | Tự động cập nhật tỷ giá mỗi giờ |
+
+Extension sử dụng declarative content scripts (khai báo trong manifest) để phát hiện giá USD trên trang web. Không cần thêm quyền truy cập tab nào khác.
 
 **Không thu thập bất kỳ dữ liệu người dùng nào.**
 
